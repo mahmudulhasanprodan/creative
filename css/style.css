@@ -1,0 +1,457 @@
+/* ======= Common css part start here ====== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,img,li,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fontfamily: Inter;
+    --fontcolor:#000;
+    --fcolor: #fff;
+    --fntcolor: #5956E8
+    
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* ======= Common css part end here ====== */
+/* ======= The Header part css start here ====== */
+#header_part{
+    padding: 35px 0;
+    background-color: #FFFFFF;
+}
+
+#header_part .top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header_part .top_header .menu_part ul{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+#header_part .top_header .menu_part ul li a{
+    color: var(--fontcolor);
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 500;
+}
+#header_part .top_header .menu_part ul li a:hover{
+    color: var(--fntcolor);
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 500;
+}
+#header_part .top_header .button_part a{
+    color: var(--fcolor);
+    padding: 8px 25px;
+    background-color: #5956E8;
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* ======= The Header part css start here ====== */
+
+/* ====== The Banner part css Start here ====== */
+
+#banner_part{
+    padding: 230px 0px;
+    background-color: #5956E8;
+}
+#banner_part .all_section{
+    display: flex;
+    justify-content: space-between;
+}
+#banner_part .all_section .text_part h1{
+    color: var(--fcolor);
+    width: 500px;
+    font-family: var(--fontfamily);
+    font-size: 65px;
+    font-weight: 700;
+
+}
+#banner_part .all_section .text_part p{
+    color: var(--fcolor);
+    margin-top: 25px;
+    width: 540px;
+    font-family: var(--fontfamily);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+#banner_part .all_section .text_part a{
+    display: inline-block;
+    color: var(--fntcolor);
+    margin-top: 30px;
+    padding: 8px 25px;
+    background-color: var(--fcolor);
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#banner_part .all_section .text_part a:hover{
+    color: var(--fcolor);
+    background-color: #e07852;
+}
+
+
+/* ====== The Banner part css End here ====== */
+#service_part {
+    padding: 50px 0;
+}
+
+/* ======= The services css part start here ====== */
+#service_part .services_header h2{
+    color: #181818;
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 40px;
+    font-weight: 700;
+}
+#service_part .services_header p{
+    color: rgba(24, 24, 24, 0.70);
+    padding: 0px 312px;
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+
+/* ======= The services css part End here ====== */
+
+/* ====== The service  flex part start here ======  */
+#service_part .services_flexbox{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#service_part .services_flexbox .design1{
+    width: 370px;
+    margin-top: 30px;
+    padding: 80px 60px;
+    border: 1px solid #E3E3E3;
+    background-color: #FFF;
+    cursor: pointer;
+     box-shadow: 3px 9px 15px -8px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 3px 9px 15px -8px rgba(0,0,0,0.87);
+    -moz-box-shadow: 3px 9px 15px -8px rgba(0,0,0,0.87);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#service_part .services_flexbox .design1 a{
+    width: 71px;
+    height: 71px;
+    padding: 17px 17px;
+    border-radius: 10px;
+    border: 0.5px solid #5956E8;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#service_part .services_flexbox .design1 a:hover{
+    background-color: #5956E8;
+}
+#service_part .services_flexbox .design1 h2{
+    color: #181818;
+    margin-top: 30px;
+    font-family: var(--fontfamily);
+    font-size: 25px;
+    font-weight: 700;
+}
+#service_part .services_flexbox .design1 p{
+    color: rgba(24, 24, 24, 0.70);
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    margin-top: 11px;
+    font-weight: 400;
+
+}
+/* ====== The service  flex part End here ======  */
+
+/* ======= The Portfolio css part start here ======= */
+    #portfolio_part .portfolio_text{
+        padding: 100px 0;
+    }
+    #portfolio_part .portfolio_text h2{
+        color: #181818;
+        text-align: center;
+        font-family: var(--fontfamily);
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+    #portfolio_part .portfolio_text p{
+        color: rgba(24, 24, 24, 0.70);
+        text-align: center;
+        font-family: var(--fontfamily);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 20px 315px;
+
+    }
+    #portfolio_part .portfolio_image{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #portfolio_part .portfolio_image .all_img{
+        padding: 30px 0;
+        
+        
+    }
+    #portfolio_part .portfolio_image .all_img img{
+        width: 270px;
+        height: 319px;
+        cursor: pointer;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+#portfolio_part .portfolio_image .all_img img:hover{
+    box-shadow: 3px 9px 15px -8px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 3px 9px 15px -8px rgba(0,0,0,0.87);
+    -moz-box-shadow: 3px 9px 15px -8px rgba(0,0,0,0.87);
+}
+
+/* ======= The Portfolio css part end here ======= */
+
+/* ======= The gradient part css start here ====== */
+#gradient_part{
+    padding-top: 100px;
+}
+#gradient_part .all_gradient .gradient_text h2{
+    color: #181818;
+    font-family: var(--fontfamily);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+#gradient_part .all_gradient .gradient_text p{
+    color: rgba(24, 24, 24, 0.70);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 320px;
+    margin-top: 13px;
+}
+#gradient_part .gradient_image{
+    padding-top: 50px;
+}
+#gradient_part .gradient_image .grad{
+    width: 370px;
+    height: 444px;
+    background: url("../imges/grad1.png");
+    position: relative;
+}
+#gradient_part .gradient_image .grad1{
+    width: 370px;
+    height: 444px;
+    background: url("../imges/grad3.png");
+    position: relative;
+}
+#gradient_part .gradient_image .grad2{
+    width: 370px;
+    height: 444px;
+    background: url("../imges/grad2.png");
+    position: relative;
+}
+
+#gradient_part .gradient_image .grad .grad_text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0.00) 58.11%);
+}
+#gradient_part .gradient_image .grad1 .grad_text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0.00) 58.11%);
+}
+#gradient_part .gradient_image .grad2 .grad_text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0.00) 58.11%);
+}
+#gradient_part .gradient_image{
+    display: flex;
+    column-gap: 30px;
+}
+#gradient_part .gradient_image .grad .grad_text h2{
+    color: var(--fcolor);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 350px;
+    line-height: 44px;
+   
+}
+#gradient_part .gradient_image .grad1 .grad_text h2{
+    color: var(--fcolor);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 350px;
+    line-height: 44px;
+   
+}
+#gradient_part .gradient_image .grad2 .grad_text h2{
+    color: var(--fcolor);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 350px;
+    line-height: 44px;
+   
+}
+#gradient_part .gradient_image .grad .grad_text p{
+    color: var(--fcolor);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+#gradient_part .gradient_image .grad1 .grad_text p{
+    color: var(--fcolor);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+#gradient_part .gradient_image .grad2 .grad_text p{
+    color: var(--fcolor);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+/* ======= The gradient part css end here ====== */
+
+/* ======= The portfolioend css part start here ======= */
+#portfolioend_part{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#portfolioend_part .portfolioend_text h2{
+    color: #181818;
+    width: 600px;
+    font-family: var(--fontfamily);
+    font-size: 40px;
+    font-weight: 700;
+}
+#portfolioend_part .portfolioend_text p{
+    color: rgba(24, 24, 24, 0.70);
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    width: 540px;
+    padding-top: 20px;
+}
+
+#portfolioend_part .portfolioend_image{
+    display: flex;
+    column-gap: 30px;
+    padding-top: 50px;
+}
+#portfolioend_part .portfolioend_image .portfolioend1{
+    width: 370px;
+    height: 425px;
+    background-color: #fff;
+    border-radius: 10;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    -ms-border-radius: 10;
+    -o-border-radius: 10;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08);
+
+}
+#portfolioend_part .portfolioend_image .portfolioend1 .pic{
+    padding-left: 275px;
+}
+#portfolioend_part .portfolioend_image .portfolioend1 .portfolioe_nd{
+    padding-top: 48px;
+    padding-left: 48px;
+}
+#portfolioend_part .portfolioend_image .portfolioend1 .portfolioe_nd i{
+    padding-top: 20px;
+    color: #FBBF25;   
+
+}
+#portfolioend_part .portfolioend_image .portfolioend1 .portfolioe_nd p{
+    width: 274px;
+    color: rgba(24, 24, 24, 0.70);
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#portfolioend_part .portfolioend_image .portfolioend1 .portfolioe_nd h2{
+    color: #181818;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+#portfolioend_part .portfolioend_image .portfolioend1 .portfolioe_nd h3{
+    color: #5D5D5D;
+    font-family: var(--fontfamily);
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+/* ======= The portfolioend css part end here =======*/
